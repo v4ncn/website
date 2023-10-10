@@ -1,0 +1,41 @@
+/* Styles for the container of the cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left:15%;
+}
+
+
+
+.card {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #fff; 
+  border: 1px solid #ddd; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 10px;
+  color:black;
+}
+
+
+.card img {
+  width: 150px;
+  height: auto;
+}
+
+
+.card img:hover {
+    transform: scale(1.10);
+}

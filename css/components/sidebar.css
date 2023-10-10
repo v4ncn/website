@@ -1,0 +1,14 @@
+.sidebar {
+  width: 7%; 
+  background-color: #a0c8f0;
+  color:white;
+  position: fixed;
+  z-index: 2; 
+  top: 0; 
+  right: 0;
+  height: 100%; 
+  padding: 20px; 
+  transition: width 0.3s;
+  text-align:center;
+  text:white;
+}
